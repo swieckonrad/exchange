@@ -9,9 +9,11 @@ export const Layout = (props) => {
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      text-align: center;
     `,
     page: css`
       flex: 1;
+      margin-top: 20px;
     `,
   };
 
